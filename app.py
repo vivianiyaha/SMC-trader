@@ -233,7 +233,7 @@ with st.sidebar:
     st.markdown("---")
 
     st.markdown("**Market Selection**")
-    sel_forex = st.multiselect("Forex Pairs", FOREX_PAIRS, default=["NZDUSD", "AUDUSD"])
+    sel_forex = st.multiselect("Forex Pairs", FOREX_PAIRS, default=["EURUSD", "AUDUSD"])
     sel_crypto = st.multiselect("Crypto", list(CRYPTO_PAIRS.keys()), default=["LTCUSD"])
     sel_synth = st.multiselect("Synthetic Indices", SYNTHETIC_INDICES, default=[])
 

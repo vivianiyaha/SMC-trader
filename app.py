@@ -76,8 +76,8 @@ div[data-testid="stMetricValue"] {{ color: {DARK_ORANGE}; }}
 # Supported markets
 # ---------------------------------------------------------------------------
 
-FOREX_PAIRS = ["NZDUSD", "AUDCHF", "AUDUSD", "AUDNZD", "AUDCAD",
-               "NZDCHF", "NZDCAD", "NZDJPY", "CADCHF"]
+FOREX_PAIRS = ["NZDUSD", "AUDCHF", "AUDUSD", "USDCHF", "AUDCAD",
+               "USDJPY", "GBPUSD", "NZDJPY", "CADCHF", "EURUSD"]
 
 CRYPTO_PAIRS = {"LTCUSD": "LTCUSDT", "XRPUSD": "XRPUSDT", "BCHUSD": "BCHUSDT"}
 
